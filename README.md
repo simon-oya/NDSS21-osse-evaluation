@@ -1,11 +1,6 @@
-# README
-This document explains the basic structure of our code and the steps that need to be followed to reproduce our results.
+# Evaluation of OSSE
+This document explains the basic structure of the evaluation code of our paper:  Zhiwei Shang, Simon Oya, Andreas Peter, Florian Kerschbaum. *Paper: Obfuscated Access and Search Patterns in Searchable Encryption*, 28th Network and Distributed System Security Symposium (NDSS), 2021.
 Each realization of our experiments is initialized with a random seed (starting from 0) so that running this code should generate **exactly** the plots in our paper. 
-
-We are working on getting a new version of our code with documented functions and classes, and a more thorough description of the code functionalities.
-Current docstrings in the code might refer to old versions of the functions/classes.
-Note that the original code evaluated other attack variations, query distributions, and theoretical defenses, so many design decisions were taken in the initial design of the code, and the current version is suboptimal.
-
 
 
 ## Quick instructions to generate the paper results
