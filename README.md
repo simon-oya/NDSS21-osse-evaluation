@@ -1,7 +1,11 @@
 # Evaluation of OSSE
-This document explains the basic structure of the evaluation code of our paper:  Zhiwei Shang, Simon Oya, Andreas Peter, Florian Kerschbaum. *Paper: Obfuscated Access and Search Patterns in Searchable Encryption*, 28th Network and Distributed System Security Symposium (NDSS), 2021.
+This document explains the basic structure of the evaluation code of our paper:  
+
+Zhiwei Shang, Simon Oya, Andreas Peter, Florian Kerschbaum. *Paper: Obfuscated Access and Search Patterns in Searchable Encryption*, 28th Network and Distributed System Security Symposium (NDSS), 2021.
+
 Each realization of our experiments is initialized with a random seed (starting from 0) so that running this code should generate **exactly** the plots in our paper. 
 
+If you have any questions/comments, please email Simon Oya: simon.oya@uwaterloo.ca.
 
 ## Quick instructions to generate the paper results
 Make sure that you compile the graphm binary, more info here: <http://projects.cbio.mines-paristech.fr/graphm/>
